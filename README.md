@@ -8,11 +8,11 @@ soga 后端同时支持 VMess、VLESS、Trojan、Shadowsocks、ShadowsocksR 协�
 
 **soga 后端特点**
 
-- 专为面板对接打造，**`全新实现`**每个协议，**`极致优化`**内存和性能
+- 专为面板对接打造，**`全新实现`** 每个协议，**`极致优化`** 内存和性能
 - 配置简单明了，容易对接
 - 一个软件即支持所有协议，无需安装其它软件
-- **`全局限制`**用户连接的 IP 数/设备数
-- 方便的**`一键安装`**、管理脚本
+- **`全局限制`** 用户连接的 IP 数/设备数
+- 方便的 **`一键安装`**、管理脚本
 - 支持 VLESS 协议，支持 VMessAEAD，支持 xtls，支持 VMess FullCone 等众多 xray 特性
 - soga 实现的 trojan、ss、ssr 均支持 UDP FullCone
 - dns 流媒体解锁
