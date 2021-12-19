@@ -43,7 +43,7 @@ soga 后端同时支持 VMess、VLESS、Trojan、Shadowsocks、ShadowsocksR 协�
 ## 一键部署
 
 ```shell
-yum -y install git && 
+yum -y install git && git clone https://gitee.com/gz1903/docker_soga.git /usr/local/src/docker_soga && cd /usr/local/src/docker_soga && chmod +x docker_soga.sh && ./docker_soga.sh
 ```
 
 ![soga](https://cdn.jsdelivr.net/gh/gz1903/tu/soga.png)
