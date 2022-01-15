@@ -21,6 +21,7 @@ echo -e "\033[36m#                  正在部署docker  时间较长请稍等~  
 echo -e "\033[36m#                                                                     #\033[0m"
 echo -e "\033[36m#######################################################################\033[0m"
 yum -y install wget
+yum -y install ca-certificates
 wget --no-check-certificate https://raw.githubusercontent.com/supermalio/docker/main/rico-docker.sh && chmod +x  rico-docker.sh && bash rico-docker.sh
 
 while :; do echo
